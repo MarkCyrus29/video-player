@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-function page() {
+function Page() {
   const searchParams = useSearchParams();
   const file = searchParams.get("file");
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -46,4 +46,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
