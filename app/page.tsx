@@ -22,7 +22,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center p-24 space-y-6">
+    <main className="min-h-screen flex flex-col justify-center items-center p-8 md:p-24  space-y-6">
       <h1 className="text-2xl font-bold">Video Player for Nicole Francisco</h1>
 
       <label

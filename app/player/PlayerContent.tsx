@@ -16,7 +16,7 @@ export default function PlayerContent() {
   };
 
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center p-24 space-y-6">
+    <main className="min-h-screen flex flex-col justify-center items-center p-8 md:p-24 space-y-6">
       <span>
         <Link href={"/"}>{`< Back`}</Link>
         <h1 className="text-2xl font-bold">
